@@ -1,0 +1,227 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-logo span {
+  color: orange;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.donate-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Donation Section */
+.donation-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  background-color: #f8f9fa;
+}
+
+.donation-text {
+  flex: 1;
+  max-width: 600px;
+  padding: 20px;
+}
+.donation-text h2 {
+  font-size: 2rem;
+  color: #0d1b2a;
+}
+.donation-text p {
+  margin-top: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.donation-box {
+  flex: 1;
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.progress-circle .circle {
+  width: 80px;
+  height: 80px;
+  border: 6px solid orange;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+
+.donate-now-btn {
+  margin: 20px 0;
+  background-color: orange;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 24px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pay-methods {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.divider {
+  margin: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+/* QR Block */
+.qr-block {
+  margin-top: 20px;
+}
+
+.qr-code {
+  width: 160px;
+  height: 160px;
+}
+
+.generate-btn {
+  margin-top: 10px;
+  background-color: white;
+  color: orange;
+  border: 2px solid orange;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.scan-text {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.wallet-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.wallet-icons img {
+  width: 30px;
+}
+
+/* Footer */
+.footer {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+}
+.footer-links {
+  margin-bottom: 10px;
+}
+.footer-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: orange;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+.social-icons a:hover {
+  color: orange;
+}
+
+/* Add a gap below the navbar */
+.nav-gap {
+  height: 2rem;
+}
+
+/* You can optionally use padding instead on .donation-section */
+.donation-section {
+  padding-top: 2rem;
+}
+
+/* Add margin below headings if needed */
+.donation-text h2 {
+  margin-bottom: 1rem;
+}
+
+
+/* Add a gap below the navbar */
+.nav-gap {
+  height: 2rem;
+}
+
+/* You can optionally use padding instead on .donation-section */
+.donation-section {
+  padding-top: 100px;
+}
+
+/* Add margin below headings if needed */
+.donation-text h2 {
+  margin-bottom: 1rem;
+}
+
+.donation-input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: conic-gradient(#28a745 calc(var(--progress, 0) * 100%), #eee 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: auto;
+}
